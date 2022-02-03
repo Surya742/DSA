@@ -4,6 +4,8 @@
 // 0 <= i, j, k, l < n
 // nums1[i] + nums2[j] + nums3[k] + nums4[l] == 0
 
+//Prob link: https://leetcode.com/problems/4sum-ii/
+
 class Solution {
 public:
     int fourSumCount(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3, vector<int>& nums4) {

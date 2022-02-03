@@ -31,6 +31,8 @@
 // Note: The test cases will be generated such that rent will only be called if the shop has an unrented 
 // copy of the movie, and drop will only be called if the shop had previously rented out the movie.
 
+//Prob Link: https://leetcode.com/problems/design-movie-rental-system/
+
 class MovieRentingSystem {
 public://5,1
     unordered_map<int, unordered_map<int, int>> mp;

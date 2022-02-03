@@ -12,6 +12,8 @@
 // exceptional case on which an aisle split a four-person group, in that case, the aisle 
 // split a four-person group in the middle, which means to have two people on each side.
 
+//Prob Link: https://leetcode.com/problems/cinema-seat-allocation/
+
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& rs) {
